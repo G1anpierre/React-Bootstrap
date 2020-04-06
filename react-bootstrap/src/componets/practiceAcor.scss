@@ -1,0 +1,28 @@
+@import "~bootstrap/scss/bootstrap";
+
+.superCard {
+    background-color: red;
+    margin-bottom: 1rem;
+    border-radius: 44px;
+}
+
+.card-header:first-child {
+    border-radius: 44px;
+}
+
+.card-head {
+    background-color: plum;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-mycard {
+    border-radius: 44px;
+    background-color: plum;
+}
+
+.btn-mybutton {
+    background-color: peru;
+    border-radius: 15px;
+}

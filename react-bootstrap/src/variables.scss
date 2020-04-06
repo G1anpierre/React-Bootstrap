@@ -1,0 +1,77 @@
+/* VARIABLES */
+$color-0: rgb(0, 0, 0); // #000000
+$color-0-a2: rgba(0, 0, 0, 0.2); // #00000033
+$color-1: rgb(255, 255, 255); // #FFFFFF
+$color-1-a5: rgba(255, 255, 255, 0.5); // #FFFFFF alpha 0.5
+$color-2: rgb(36, 36, 36); // #242424
+$color-2-a1: rgba(36, 36, 36, 0.1); // #242424
+$color-2-a2: rgba(36, 36, 36, 0.2); // #242424
+$color-2-a4: rgba(36, 36, 36, 0.4); // #242424
+$color-2-a5: rgba(36, 36, 36, 0.5); // #242424
+$color-3: rgb(18, 10, 122); // #120A7A
+$color-3-a5: rgba(18, 10, 122, 0.5); // #120A7A alpha 0.5
+$color-4: rgb(243, 243, 243); // #F3F3F3
+$color-4-a5: rgba(243, 243, 243, 0.5); // #F3F3F3 alpha 0.5
+$color-5: rgb(101, 193, 174); // #65C1AE
+$color-5-a5: rgba(101, 193, 174, 0.5); // #65C1AE alpha 0.5
+$color-6: rgb(204, 204, 204); // #CCCCCC
+$color-6-a5: rgba(204, 204, 204, 0.5); // #CCCCCC alpha 0.5
+$color-7: rgb(229, 229, 229); // #E5E5E5
+$color-8: rgba(0, 0, 0, 0.161); // #00000029
+$color-9: rgb(177, 177, 177); // #B1B1B1
+$color-10: rgb(254, 169, 0); // #FEA900
+$color-11: rgb(199, 24, 65); //#C71841
+$color-12: rgb(34, 46, 132); // #222E84
+$color-13: rgb(72, 159, 141); // #489F8D
+$color-14: rgb(157, 157, 157); // #9D9D9D
+$color-15: rgb(139, 139, 139); // #8B8B8B
+$color-16: rgb(0, 0, 0); // #000000
+$color-17: rgb(5, 46, 101); // #052E65
+$color-18: rgb(239, 239, 239); // #EFEFEF
+$color-19: rgb(220, 220, 220); // #DCDCDC
+$color-R-20: rgb(199, 24, 65); //  #C71841
+$color-badge-date: rgb(151, 151, 151); // #979797
+$color-linkedin: rgb(0, 122, 185); // #007AB9
+$color-linkedin-a5: rgba(0, 122, 185, 0.5); // #007AB9 alpha 0.5
+$color-linkedin-2: rgb(0, 105, 159); // #00699F
+$color-mendeley: rgb(167, 25, 37); // #A71925
+$color-mendeley-a5: rgba(167, 25, 37, 0.5); // #A71925 alpha 0.5
+$color-accepted: rgb(0, 145, 106); // #00916A
+
+$input-search-new-project: rgb(13, 6, 101); //#0D0665
+$step-bg-new-project: rgb(68, 123, 154); //#447b9a
+
+$color-positive: rgb(16, 210, 137); // #10D289
+$color-active-bar: rgb(67, 161, 141); // #43A18D
+$color-active-date: rgb(0, 145, 106); // #00916A
+
+$calendar-month: rgb(230, 230, 230); // #e6e6e6
+$calendar-wrapper: rgb(242, 242, 242); // #f2f2f2
+$calendar-weekdays: rgb(235, 235, 235); // #ebebeb
+
+// Bootstrap gutter (from default 15px for left or right side to 0.9375rem based on font-size)
+$grid-gutter-width: 1.875rem; // 30px on body font-size: 16px
+
+// Bootstrap Breakpoints
+$grid-breakpoints: (
+	xs: 0,
+	// mobile
+		sm: 576px,
+	// mobile - tablet
+		md: 768px,
+	// mobile - tablet
+		lg: 992px,
+	// tablet - desktop
+		xl: 1200px,
+	// desktop
+		xxl: 1600px,
+	// desktop large
+) !default;
+
+// Viewport settings
+$vw-mobile-xs: 360;
+$vw-mobile: 576;
+$vw-tablet-portrait: 768;
+$vw-tablet-landscape: 992;
+$vw-desktop: 1200;
+$vw-desktop-large: 1600;

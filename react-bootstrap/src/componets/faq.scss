@@ -1,0 +1,176 @@
+@import '../variables.scss';
+
+.faq {
+	&__general-title {
+		margin-top: 11rem;
+		margin-bottom: 11rem;
+		.faq-title {
+			.title {
+				font-size: 4.875rem;
+			}
+		}
+	}
+
+	.faq-accordion {
+		.faq__card {
+			margin-bottom: 2rem;
+			border: none;
+			border-radius: 44px;
+			background-color: $color-7;
+			padding: 1rem 1rem 1rem 2rem;
+			.header {
+				
+				
+
+				.head {
+					padding: 2rem 3rem 2rem 2rem;
+					
+					border-radius: 44px;
+
+					&__title {
+						font-size: 2.6rem;
+						color: $color-2;
+					}
+
+					.button-icon {
+						background-color: $color-19;
+						border-radius: 15px;
+						min-height: 3rem;
+						min-width: 3rem;
+
+						.fa-minus,
+						.fa-plus {
+							font-size: 2rem;
+							opacity: 0.5;
+						}
+					}
+				}
+
+				&[aria-expanded='true'] {
+					.head {
+						border-radius: 44px 44px 0 0;
+					}
+				}
+			}
+		}
+
+
+
+	}
+	.body {
+
+		background-color: peru;
+		.company-content {
+			padding: 2rem 2rem 2rem 2rem;
+
+			&__item {
+				margin-bottom: 4rem;
+
+				.title {
+					font-size: 1.75rem;
+					color: $color-2;
+					margin-bottom: 1.5rem;
+					text-transform: uppercase;
+				}
+
+				.text {
+					font-size: 1.25rem;
+					color: $color-2;
+					font-family: 'Rubik', sans-serif;
+				}
+			}
+
+			&__text-info {
+				.text-link {
+					font-size: 1.25rem;
+					color: $color-2;
+					font-family: 'Rubik', sans-serif;
+					.link {
+						color: $color-5;
+						cursor: pointer;
+					}
+				}
+			}
+		}
+	}
+
+}
+
+/* Mobile viewport - max 767 */
+@media all and (max-width: ($vw-tablet-portrait - 1) + px) {
+	.faq {
+		&__general-title {
+			margin-top: 4.25rem;
+			margin-bottom: 4.75rem;
+
+			.faq-title {
+				margin-left: 2rem;
+
+				.title {
+					font-size: 1.875rem;
+				}
+			}
+		}
+
+		.faq-accordion {
+			.faq__card {
+				.header {
+					border-radius: 15px;
+
+					.head {
+						padding: 1rem 1rem 1rem 2rem;
+						border-radius: 15px;
+
+						&__title {
+							font-size: 1.25rem;
+						}
+
+						.button-icon {
+							border-radius: 10px;
+						}
+
+						.fa-minus,
+						.fa-plus {
+						}
+					}
+
+					&[aria-expanded='true'] {
+						.head {
+							border-radius: 15px 15px 0 0;
+						}
+					}
+
+					.body {
+						.company-content {
+							padding: 1rem;
+
+							&__item {
+								margin-bottom: 3rem;
+
+								.title {
+									font-size: 1rem;
+								}
+
+								.text {
+									font-size: 0.8rem;
+								}
+							}
+
+							&__text-info {
+								display: flex;
+								justify-content: center;
+								flex-wrap: wrap;
+								.text-link {
+									flex: 0 0 75%;
+									max-width: 75%;
+
+									font-size: 1rem;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
