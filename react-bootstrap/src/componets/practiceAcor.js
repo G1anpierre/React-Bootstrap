@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Accordion, Card, Button } from 'react-bootstrap';
+import MyAcoordion from './MyAcoordion';
 
 import './practiceAcor.scss';
 
@@ -31,6 +32,26 @@ function practiceAcor() {
                     </Accordion.Collapse>
                 </Card>
             </Accordion>
+
+            <Accordion defaultActiveKey="0">
+                <Card>
+                    <Card.Header>
+                    <CustomToggle eventKey="0">Click me!</CustomToggle>
+                    </Card.Header>
+                    <Accordion.Collapse eventKey="0">
+                    <Card.Body>Hello! I'm the body</Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+                <Card>
+                    <Card.Header>
+                    <CustomToggle eventKey="1">Click me!</CustomToggle>
+                    </Card.Header>
+                    <Accordion.Collapse eventKey="1">
+                    <Card.Body>Hello! I'm another body</Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+            </Accordion>
+
         </div>
     )
 }
